@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soko.bi - Marketplace Burundi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f6fa;
+            color: #202124;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 8px #00000010;
+        }
+
+        .logo {
+            font-size: 27px;
+            font-weight: bold;
+            color: #13834b;
+        }
+
+        .hero {
+            padding: 45px 20px;
+            text-align: center;
+            background: #13834b;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 30px;
+            margin-bottom: 12px;
+        }
+
+        .search {
+            margin: 25px auto 0;
+            max-width: 500px;
+        }
+
+        .search input {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .categories {
+            padding: 25px 15px;
+        }
+
+        .categories h2,
+        .products h2 {
+            margin-bottom: 20px;
+        }
+
+        .category-list {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+        }
+
+        .category {
+            background: white;
+            padding: 18px;
+            border-radius: 10px;
+            min-width: 110px;
+            text-align: center;
+        }
+
+        .products {
+            padding: 20px 15px;
+        }
+
+        .empty {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Soko.bi</div>
+    <div>☰</div>
+</header>
+
+<section class="hero">
+    <h1>Bienvenue sur Soko.bi</h1>
+    <p>Achetez et vendez facilement au Burundi.</p>
+
+    <div class="search">
+        <input type="search"
+        placeholder="Que recherchez-vous ?">
+    </div>
+</section>
+
+<section class="categories">
+    <h2>Catégories</h2>
+
+    <div class="category-list">
+        <div class="category">📱<br>Électronique</div>
+        <div class="category">👕<br>Mode</div>
+        <div class="category">🏠<br>Maison</div>
+        <div class="category">🚗<br>Véhicules</div>
+        <div class="category">⚽<br>Sports</div>
+    </div>
+</section>
+
+<section class="products">
+    <h2>Produits récents</h2>
+
+    <div class="empty">
+        <p>Les produits apparaîtront ici.</p>
+        <p>Découvrez bientôt notre marketplace !</p>
+    </div>
+</section>
+
+</body>
+  </html>
